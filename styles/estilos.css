@@ -67,15 +67,26 @@ h2 {
   text-align: left;
   font-family: "Poppins", sans-serif;
 }
-.slogan {
-  align-content: center;
+h3 {
+  color: #618264 !important;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.slogan {
+  align-content: left;
+  text-align: left;
 }
 button {
   background-color: #a8df8e !important;
   color: rgb(245, 255, 249) !important;
   border: none !important;
+  align-content: left;
+}
+.button {
+  margin-right: 50px;
+  /* align-items: center;
   align-content: center;
+  margin: 0 auto; */
 }
 #button-slogan {
   width: 150px;
@@ -97,4 +108,19 @@ p {
 }
 #card:hover {
   transform: scale(1.1);
+}
+#home-info {
+  border-color: white;
+  background-color: rgb(144, 206, 106);
+  height: 110px;
+  align-content: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin-left: 20px;
+}
+.home-info-text {
+  text-align: center;
+  margin-top: 10px;
+  color: #ffffff;
 }
