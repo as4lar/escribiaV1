@@ -5,7 +5,7 @@
 }
 html,
 body {
-  background-color: #ecfeee !important;
+  background-color: #d4f8d8 !important;
 }
 
 .header {
@@ -123,4 +123,18 @@ p {
   text-align: center;
   margin-top: 10px;
   color: #ffffff;
+}
+#text-input {
+  background-color: white;
+  width: 500px;
+  height: 205px;
+}
+
+.corrected-text {
+  align-content: center;
+  background-color: white;
+  width: 500px !important;
+  height: 205px;
+  margin-top: 40px;
+  border-radius: 8px;
 }
